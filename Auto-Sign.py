@@ -59,7 +59,7 @@ class BurpExtender(IBurpExtender, IHttpListener):
 
     def update_sign(slef,body):
         try:
-            appKey = "c4e8cc21fbc7420f92aa1519dbf41912"
+            appKey = "TEST_KEY"
             hash_param='secret= '+appKey+'&'+body
 
             print "-----------------------------"
